@@ -2,7 +2,7 @@ def main(s):
     i=0
     t=0
     while len(s)>t:
-        if s[t]==s[t].lower():
+        if s[t]==(s[t].lower()):
             i +=1
         t +=1
     """
@@ -14,4 +14,4 @@ def main(s):
     """
 
     return i
-    
+
