@@ -13,5 +13,4 @@ def main(s):
         int: return answer
     """
     return i
-    
 
