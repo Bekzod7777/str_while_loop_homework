@@ -1,4 +1,5 @@
 def main(s):
+    s=int(s)
     t=0
     i=0
     while s>0:
