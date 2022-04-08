@@ -15,4 +15,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    return  t
+    return t
+
+
