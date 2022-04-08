@@ -1,9 +1,10 @@
 def main(s):
-    
+   
     i=0
     t=0
     while len(s)>t:
-        if s[t].ispunctuation()==True:
+        if not (s[t].isdigit() or s[t].isalpha()):
+
             i +=1
         t +=1
     """
@@ -13,5 +14,5 @@ def main(s):
     Returns:
         int: return answer
     """
-    return t
-    
+    return i
+
